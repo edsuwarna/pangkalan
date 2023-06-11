@@ -22,7 +22,7 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 # Update the apt package index
-sudo apt-get update
+sudo apt-get update -y
 
 # Install docker latest version
 sudo apt-get install \
